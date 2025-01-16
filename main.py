@@ -57,3 +57,11 @@ def screenshot(x, y, w, h):
 if __name__ == "__main__":
     main()
     
+# TODO: Disable the countdown button when countdown
+# TODO: Check if level is selected before saving 
+# TODO: Need a third function for CS50P
+# TODO: Make layout for other level
+# TODO: Change the layout when other level is selected
+# TODO: Pytest
+# TODO: Readme
+# TODO: Youtube

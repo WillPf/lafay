@@ -5,7 +5,6 @@ from niveaux import *
 today = datetime.now().strftime("%a %d/%m/%Y")
 
 sg.theme('LightGreen7')
-# sg.theme_previewer()
 
 layout = [[sg.Text(today, k="date"), sg.Push(), sg.Text(0, k="clock", font=("_", 20, "bold"), s=3), sg.Button("25 sec"), sg.Button("3 min"), sg.Push(), sg.Text("LAFAY")],
     [sg.Push(), sg.Text("Niveau: "), sg.Combo([2, 3, 4, 5, 6, 7, 8], k="NIV")],
